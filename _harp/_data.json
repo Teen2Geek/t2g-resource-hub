@@ -1,0 +1,37 @@
+{
+	"index": {
+		"categories": {
+			"ui": {
+				"name": "User Interface Design",
+				"faSymbol": "fa-desktop",
+				"link": "ui-design"
+			},
+			"f-dev": {
+				"name": "Front-End Development",
+				"faSymbol": "fa-code",
+				"link": "frontend-dev"
+			},
+			"b-dev": {
+				"name": "Back-End Development",
+				"faSymbol": "fa-terminal",
+				"link": "backend-dev"
+			}
+		}
+	},
+	"ui": {
+		"items": {
+			"htmlcss" : {
+				"name": "Learn the basics of HTML/CSS",
+				"link": "http://www.codecademy.com/tracks/web"
+			},
+			"jquery": {
+				"name": "Learn how to make interactive interfaces",
+				"link": "http://www.codecademy.com/tracks/jquery"
+			},
+			"type": {
+				"name": "An interactive typography tutorial",
+				"link": "https://www.easel.io/tutorials/setting_type"
+			}
+		}
+	}
+}

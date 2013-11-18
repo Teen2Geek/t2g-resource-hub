@@ -1,0 +1,22 @@
+doctype 5
+html
+ head
+  title T2G - Development Resources and Tutorials
+  link(href='/main.css', type='text/css', rel='stylesheet')
+ body
+  header
+   h1 T2G Resource Hub
+   nav
+    a(href='/') Home
+    a(href='/about') About
+    a(href='/contribute') Contribute
+    a(href='http://www.teen2geek.com') T2G Home
+  .content
+   != yield
+  footer
+   | &copy; 2013 Classify Studios. Made by 
+   a(href='http://krrishd.github.io/?ref=t2g-hub', target="_blank") Krish Dholakiya 
+   | with some 
+   i(class='fa fa-heart')
+   |  and 
+   a(href='http://harpjs.com') HarpJS
