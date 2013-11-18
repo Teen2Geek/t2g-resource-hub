@@ -1,6 +1,6 @@
 # T2G Resource Hub
 
-This is a repository of various learning resources that the teen development community may find useful, in technology competencies such as **UI/UX Design** , **Front-End Development**, and **Back-End Development**.
+This is a repository of various learning resources that the teen development community may find useful, in technology competencies such as **UI/UX Design**, **Front-End Development**, and **Back-End Development**.
 
 ## Contribute
 
