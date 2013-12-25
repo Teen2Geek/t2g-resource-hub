@@ -1,36 +1,63 @@
 {
-	"index": {
-		"categories": {
-			"ui": {
-				"name": "User Interface Design",
-				"faSymbol": "fa-desktop",
-				"link": "ui-design"
-			},
-			"f-dev": {
-				"name": "Front-End Development",
-				"faSymbol": "fa-code",
-				"link": "frontend-dev"
-			},
-			"b-dev": {
-				"name": "Back-End Development",
-				"faSymbol": "fa-terminal",
-				"link": "backend-dev"
+	"courses": {
+		"webFundamentals": {
+			"name": "Web Fundamentals",
+			"faIcon": "fa-info-circle",
+			"color": "#3498db",
+			"resources": {
+				"htmlCss": {
+					"name": "Learn basic HTML and CSS",
+					"url": "http://www.codecademy.com/tracks/web?ref=teen2geek"
+				},
+				"jquery": {
+					"name": "Learn how to make websites interactive with jQuery",
+					"url": "http://www.codecademy.com/tracks/jquery?ref=teen2geek"
+				},
+				"js": {
+					"name": "Learn how to make advanced web applications with JavaScript",
+					"url": "http://www.codecademy.com/tracks/javascript"
+				},
+				"assignmentOne": {
+					"name": "Assignment One: Design a Website",
+					"url": "http://hub.teen2geek.com/assignments/one",
+					"assignment": true
+				}
 			}
-		}
-	},
-	"ui": {
-		"items": {
-			"htmlcss" : {
-				"name": "Learn the basics of HTML/CSS",
-				"link": "http://www.codecademy.com/tracks/web"
-			},
-			"jquery": {
-				"name": "Learn how to make interactive interfaces",
-				"link": "http://www.codecademy.com/tracks/jquery"
-			},
-			"type": {
-				"name": "An interactive typography tutorial",
-				"link": "https://www.easel.io/tutorials/setting_type"
+		},
+		"uiDesign": {
+			"name": "User Interface/Experience Design",
+			"faIcon": "fa-desktop",
+			"color": "#2980b9",
+			"resources": {
+				"contentHierarchy": {
+					"name": "Content Hierarchy Through Design",
+					"url": "http://webdesign.tutsplus.com/articles/design-theory/building-content-hierarchy-through-design/?ref=teen2geek"
+				},
+				"visualHierarchy": {
+					"name": "Visual Hierarchy Through Design",
+					"url": "http://webdesign.tutsplus.com/articles/design-theory/building-visual-hierarchy-into-your-designs/"
+				},
+				"designTrends": {
+					"name": "Trends in Design",
+					"url": "http://webdesign.tutsplus.com/articles/design-theory/all-about-trends-in-web-design/?ref=teen2geek"
+				},
+				"typographyOne": {
+					"name": "Setting Type - Interactive Typography Tutorial",
+					"url": "https://www.easel.io/tutorials/setting_type?ref=teen2geek"
+				},
+				"typographyTwo": {
+					"name": "Typographic Style Applied to the Web",
+					"url": "http://webtypography.net/"
+				},
+				"forPerformance": {
+					"name": "Designing for Performance",
+					"url": "http://webdesign.tutsplus.com/articles/user-experience-articles/designing-for-performance/?ref=teen2geek"
+				},
+				"uiEbook": {
+					"name": "Read this book - Step by Step UI Design",
+					"url": "http://sachagreif.com/ebook/?ref=teen2geek",
+					"paid": true
+				}
 			}
 		}
 	}
