@@ -59,6 +59,81 @@
 					"paid": true
 				}
 			}
+		},
+		"frontend": {
+			"name": "Front-End Development",
+			"faIcon": "fa-code",
+			"color": "#7f8c8d",
+			"resources": {
+				"jade": {
+					"name": "Learn Jade - HTML Preprocessor",
+					"url": "http://www.learnjade.com/"
+				},
+				"less": {
+					"name": "Learn LESS - CSS Preprocessor",
+					"url": "http://lesscss.org/"
+				},
+				"sass": {
+					"name": "Learn SASS - CSS Preprocessor",
+					"url": "http://sass-lang.com/guide"
+				},
+				"angular": {
+					"name": "Learn Angular.js - JavaScript Framework",
+					"url": "http://angularjs.org/"
+				},
+				"emmet": {
+					"name": "Emmet - An Essential Toolkit for Web Developers",
+					"url": "http://docs.emmet.io/"
+				},
+				"grunt": {
+					"name": "Grunt - Automate Your Front-End Workflow",
+					"url": "http://gruntjs.com/getting-started"
+				},
+				"harp": {
+					"name": "Harp - Static Web Server w/Built-In Preprocessing",
+					"url": "http://harpjs.com/"
+				}
+			}
+		},
+		"backend": {
+			"name": "Backend Development",
+			"faIcon": "fa-terminal",
+			"color": "#2c3e50",
+			"resources": {
+				"ruby": {
+					"name": "Learn the Ruby language",
+					"url": "http://www.codecademy.com/tracks/ruby"
+				},
+				"sinatra": {
+					"name": "Learn Sinatra - A Small Ruby Web Library",
+					"url": "http://net.tutsplus.com/tutorials/ruby/singing-with-sinatra/"
+				},
+				"rails": {
+					"name": "Learn Ruby on Rails - A Ruby Web Application Framework",
+					"url": "http://ruby.railstutorial.org/book/ruby-on-rails-tutorial"
+				},
+				"nodeschool": {
+					"name": "Learn Node.js With Interactive Lessons",
+					"url": "http://nodeschool.io"
+				},
+				"codeschoolnode": {
+					"name": "Realtime Web With Node.js",
+					"url": "https://www.codeschool.com/courses/real-time-web-with-nodejs",
+					"paid": true
+				},
+				"express": {
+					"name": "Express.js - Node.js Web Application Framework",
+					"url": "http://expressjs.com"
+				},
+				"expresstut": {
+					"name": "Express.js Tutorial",
+					"url": "http://www.hacksparrow.com/express-js-tutorial.html"
+				},
+				"sailsjs": {
+					"name": "SailsJS - Node.js MVC Framework",
+					"url": "http://sailsjs.org/#!getStarted"
+				}
+			}
 		}
 	}
 }

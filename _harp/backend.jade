@@ -1,0 +1,16 @@
+.course.animated.fadeInDown(class='backend page')
+ h2
+  i.fa(class='#{public._data.courses.backend.faIcon}', style='background-color: #{public._data.courses.backend.color};')
+  | #{public._data.courses.backend.name}
+.items
+ each item, slug in public._data.courses.backend.resources
+  .item(class="#{slug} #{item.paid == true ? 'paid' : 'free'} #{item.assignment == true ? 'assignment' : 'ext'}")
+   h2 
+    a(href='#{item.url}', target='_blank') #{item.name}
+    span.hostname
+     | #{item.url}
+ .item.add
+  h2
+   a(href='https://github.com/krrishd/t2g-resource-hub/edit/gh-pages/_harp/_data.json', target='_blank')
+    i.fa.fa-plus-square-o
+    | Add Items
