@@ -1,4 +1,4 @@
-<!DOCTYPE html><html><head><title>T2G Resource Hub</title><link href="/main.css" type="text/css" rel="stylesheet"><script src="/bower_components/jquery/jquery.min.js"></script><script src="http://yandex.st/highlightjs/7.5/highlight.min.js"></script><script src="/main.js"></script></head><body><header><h1>T2G Resource Hub</h1><nav><a href="/">Home</a><a href="/about">About</a><a href="/contact">Contact</a></nav></header><h1>Highlight.js</h1>
+<!DOCTYPE html><html><head><title>T2G Resource Hub</title><link href="/main.css" type="text/css" rel="stylesheet"><meta charset="UTF-8"><meta description="T2G Resource Hub is a part of the Teen2Geek initiative, and provides beginners with resources to learn development and design."><script src="/bower_components/jquery/jquery.min.js"></script><script src="http://yandex.st/highlightjs/7.5/highlight.min.js"></script><script src="/main.js"></script></head><body><header><h1>T2G Resource Hub</h1><nav><a href="/">Home</a><a href="/about">About</a><a href="/contact">Contact</a></nav></header><h1>Highlight.js</h1>
 <p>Highlight.js highlights syntax in code examples on blogs, forums and,
 in fact, on any web page. It&#39;s very easy to use because it works
 automatically: finds blocks of code, detects a language, highlights it.</p>
@@ -85,7 +85,7 @@ on a site.</p>
 <ul>
 <li>Version: 7.3</li>
 <li>URL:     <a href="http://softwaremaniacs.org/soft/highlight/en/">http://softwaremaniacs.org/soft/highlight/en/</a></li>
-<li>Author:  Ivan Sagalaev (<a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x6d;&#x61;&#110;&#105;&#97;&#x63;&#64;&#115;&#x6f;&#x66;&#116;&#x77;&#x61;&#x72;&#x65;&#109;&#x61;&#x6e;&#105;&#97;&#x63;&#115;&#x2e;&#111;&#114;&#103;">&#x6d;&#x61;&#110;&#105;&#97;&#x63;&#64;&#115;&#x6f;&#x66;&#116;&#x77;&#x61;&#x72;&#x65;&#109;&#x61;&#x6e;&#105;&#97;&#x63;&#115;&#x2e;&#111;&#114;&#103;</a>)</li>
+<li>Author:  Ivan Sagalaev (<a href="&#x6d;&#97;&#x69;&#x6c;&#116;&#111;&#58;&#x6d;&#97;&#110;&#105;&#97;&#99;&#x40;&#115;&#111;&#x66;&#116;&#x77;&#97;&#x72;&#101;&#x6d;&#x61;&#110;&#105;&#x61;&#x63;&#x73;&#x2e;&#111;&#114;&#103;">&#x6d;&#97;&#110;&#105;&#97;&#99;&#x40;&#115;&#111;&#x66;&#116;&#x77;&#97;&#x72;&#101;&#x6d;&#x61;&#110;&#105;&#x61;&#x63;&#x73;&#x2e;&#111;&#114;&#103;</a>)</li>
 </ul>
 <p>For the license terms see LICENSE files.
 For the list of contributors see AUTHORS.en.txt file.</p>

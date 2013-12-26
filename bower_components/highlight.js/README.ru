@@ -1,4 +1,4 @@
-<!DOCTYPE html><html><head><title>T2G Resource Hub</title><link href="/main.css" type="text/css" rel="stylesheet"><script src="/bower_components/jquery/jquery.min.js"></script><script src="http://yandex.st/highlightjs/7.5/highlight.min.js"></script><script src="/main.js"></script></head><body><header><h1>T2G Resource Hub</h1><nav><a href="/">Home</a><a href="/about">About</a><a href="/contact">Contact</a></nav></header><h1>Highlight.js</h1>
+<!DOCTYPE html><html><head><title>T2G Resource Hub</title><link href="/main.css" type="text/css" rel="stylesheet"><meta charset="UTF-8"><meta description="T2G Resource Hub is a part of the Teen2Geek initiative, and provides beginners with resources to learn development and design."><script src="/bower_components/jquery/jquery.min.js"></script><script src="http://yandex.st/highlightjs/7.5/highlight.min.js"></script><script src="/main.js"></script></head><body><header><h1>T2G Resource Hub</h1><nav><a href="/">Home</a><a href="/about">About</a><a href="/contact">Contact</a></nav></header><h1>Highlight.js</h1>
 <p>Highlight.js нужен для подсветки синтаксиса в примерах кода в блогах,
 форумах и вообще на любых веб-страницах. Пользоваться им очень просто,
 потому что работает он автоматически: сам находит блоки кода, сам
@@ -89,7 +89,7 @@ highlight.js.</p>
 <ul>
 <li>Версия: 7.3</li>
 <li>URL:    <a href="http://softwaremaniacs.org/soft/highlight/">http://softwaremaniacs.org/soft/highlight/</a></li>
-<li>Автор:  Иван Сагалаев (<a href="&#109;&#97;&#105;&#108;&#x74;&#x6f;&#x3a;&#x6d;&#97;&#110;&#x69;&#97;&#99;&#x40;&#x73;&#111;&#x66;&#x74;&#119;&#x61;&#114;&#101;&#x6d;&#x61;&#110;&#x69;&#x61;&#x63;&#x73;&#x2e;&#x6f;&#114;&#x67;">&#x6d;&#97;&#110;&#x69;&#97;&#99;&#x40;&#x73;&#111;&#x66;&#x74;&#119;&#x61;&#114;&#101;&#x6d;&#x61;&#110;&#x69;&#x61;&#x63;&#x73;&#x2e;&#x6f;&#114;&#x67;</a>)</li>
+<li>Автор:  Иван Сагалаев (<a href="&#109;&#97;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x6d;&#x61;&#110;&#x69;&#97;&#99;&#x40;&#x73;&#x6f;&#x66;&#116;&#x77;&#x61;&#114;&#101;&#109;&#97;&#x6e;&#105;&#97;&#x63;&#x73;&#46;&#111;&#x72;&#x67;">&#x6d;&#x61;&#110;&#x69;&#97;&#99;&#x40;&#x73;&#x6f;&#x66;&#116;&#x77;&#x61;&#114;&#101;&#109;&#97;&#x6e;&#105;&#97;&#x63;&#x73;&#46;&#111;&#x72;&#x67;</a>)</li>
 </ul>
 <p>Лицензионное соглашение читайте в файле LICENSE.
 Список соавторов читайте в файле AUTHORS.ru.txt</p>
