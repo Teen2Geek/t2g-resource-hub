@@ -3,6 +3,9 @@ html
  head
   title T2G Resource Hub
   link(href='/main.css', type='text/css', rel='stylesheet')
+  script(src='/bower_components/jquery/jquery.min.js')
+  script(src='http://yandex.st/highlightjs/7.5/highlight.min.js')
+  script(src='/main.js')
  body
   header
    h1 T2G Resource Hub
@@ -10,7 +13,7 @@ html
     a(href='/') Home
     a(href='/about') About
     a(href='/contact') Contact
-  .assignment
+  .assignmentContent
    !=yield
   footer
    p
