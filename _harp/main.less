@@ -1,5 +1,141 @@
 @import "//fonts.googleapis.com/css?family=Lato:300";
+@import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css";
+@import "/bower_components/animate.css/animate.min.css";
 
 body {
+  -webkit-transform: translate3d(0, 0, 0);
   font-family:Lato, sans-serif;
+  text-align:center;
+  background: #FAFAFA;
+  color: rgba(0,0,0,.8);
+}
+
+.content {
+  max-width: 600px;
+  text-align: left;
+  padding: 20px;
+  margin: 0 auto;
+  border: 1px solid rgba(0,0,0,.1);
+  border-bottom: 2px solid rgba(0,0,0,.1);
+}
+
+header {
+  margin-bottom: 35px;
+  nav {
+    a {
+      margin: 20px;
+      color: inherit;
+      text-decoration: none;
+      padding-bottom: 3px;
+      border-bottom: 2px solid rgba(0,0,0,.1);
+    }
+  }
+}
+
+.course {
+  padding: 10px;
+  border: 1px solid rgba(0,0,0,.1);
+  border-bottom: 2px solid rgba(0,0,0,.1);
+  margin: 10px auto;
+  max-width: 600px;
+  text-align: left;
+  &.page {
+    padding: 5px 10px;
+    text-align: center;
+    .fa {
+      margin-right:15px;
+    }
+  }
+  a {
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 2px solid rgba(0,0,0,.1);
+    padding-bottom: 5px;
+  }
+  .fa {
+    padding: 10px;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,.7);
+    border-radius: 3px;
+    box-shadow: inset 1px 1px 3px 1px rgba(0,0,0,.4);
+    margin-right: 10%;
+  }
+}
+
+.item {
+  display: block;
+  max-width: 600px;
+  margin: 10px auto;
+  border: 1px solid rgba(0,0,0,.2);
+  border-bottom: 2px solid rgba(0,0,0,.2);
+  padding: 10px;
+  &.add {
+    box-shadow: inset 1px 1px 100px 10px rgba(0,0,0,.1);
+    //text-shadow: 2px 2px 3px rgba(0,0,0,.4);
+    .fa {
+      margin-right:15px;
+    }
+  }
+  &.assignment {
+    a:before {
+      content: '\f02d';
+      font-family: FontAwesome;
+      margin-right: 10px;
+    }
+  }
+  &.paid {
+    .hostname {
+      display:block;
+    }
+    a {
+      display:inline-block;
+      &:before {
+        content: "\f155";
+        font-family: FontAwesome;
+        color: green;
+        display: inline-block;
+        position: relative;
+        right: 10px;
+      }
+    }
+  }
+  a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    padding-bottom: 5px;
+  }
+  .hostname {
+    font-size: .5em;
+    color: rgba(0,0,0,.4);
+  }
+}
+
+footer {
+  margin-top: 50px;
+}
+
+@media(max-width:415px) {
+  .course {
+    text-align:center;
+    &.page {
+      text-align:center;
+      .fa {
+        display:block;
+        max-width:50px;
+        margin:5px auto;
+      }
+    }
+    .fa {
+      display:block;
+      max-width:50px;
+      margin:5px auto;
+    }
+    a {
+      display:block;
+      margin:10px auto;
+      border-bottom:none;
+    }
+  }
 }

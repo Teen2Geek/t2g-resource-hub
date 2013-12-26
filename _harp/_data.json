@@ -7,11 +7,11 @@
 			"resources": {
 				"htmlCss": {
 					"name": "Learn basic HTML and CSS",
-					"url": "http://www.codecademy.com/tracks/web?ref=teen2geek"
+					"url": "http://www.codecademy.com/tracks/web"
 				},
 				"jquery": {
 					"name": "Learn how to make websites interactive with jQuery",
-					"url": "http://www.codecademy.com/tracks/jquery?ref=teen2geek"
+					"url": "http://www.codecademy.com/tracks/jquery"
 				},
 				"js": {
 					"name": "Learn how to make advanced web applications with JavaScript",
@@ -27,11 +27,11 @@
 		"uiDesign": {
 			"name": "User Interface/Experience Design",
 			"faIcon": "fa-desktop",
-			"color": "#2980b9",
+			"color": "#8e44ad",
 			"resources": {
 				"contentHierarchy": {
 					"name": "Content Hierarchy Through Design",
-					"url": "http://webdesign.tutsplus.com/articles/design-theory/building-content-hierarchy-through-design/?ref=teen2geek"
+					"url": "http://webdesign.tutsplus.com/articles/design-theory/building-content-hierarchy-through-design/"
 				},
 				"visualHierarchy": {
 					"name": "Visual Hierarchy Through Design",
@@ -39,11 +39,11 @@
 				},
 				"designTrends": {
 					"name": "Trends in Design",
-					"url": "http://webdesign.tutsplus.com/articles/design-theory/all-about-trends-in-web-design/?ref=teen2geek"
+					"url": "http://webdesign.tutsplus.com/articles/design-theory/all-about-trends-in-web-design/"
 				},
 				"typographyOne": {
 					"name": "Setting Type - Interactive Typography Tutorial",
-					"url": "https://www.easel.io/tutorials/setting_type?ref=teen2geek"
+					"url": "https://www.easel.io/tutorials/setting_type"
 				},
 				"typographyTwo": {
 					"name": "Typographic Style Applied to the Web",
@@ -51,11 +51,11 @@
 				},
 				"forPerformance": {
 					"name": "Designing for Performance",
-					"url": "http://webdesign.tutsplus.com/articles/user-experience-articles/designing-for-performance/?ref=teen2geek"
+					"url": "http://webdesign.tutsplus.com/articles/user-experience-articles/designing-for-performance/"
 				},
 				"uiEbook": {
 					"name": "Read this book - Step by Step UI Design",
-					"url": "http://sachagreif.com/ebook/?ref=teen2geek",
+					"url": "http://sachagreif.com/ebook/",
 					"paid": true
 				}
 			}

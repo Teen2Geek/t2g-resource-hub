@@ -1,1 +1,5 @@
-h1 Coming Soon...
+each course, slug in public._data.courses
+ .course.animated.fadeIn(class='#{slug}')
+  h2
+   i.fa(class='#{course.faIcon}', style='background-color: #{course.color};')
+   a(href='/#{slug}') #{course.name}
