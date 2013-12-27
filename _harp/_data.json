@@ -100,6 +100,15 @@
 			"faIcon": "fa-terminal",
 			"color": "#2c3e50",
 			"resources": {
+				"meteor": {
+					"name": "Meteor - The Full-Stack JS Framework",
+					"url": "https://www.meteor.com/learn-meteor"
+				},
+				"learnMeteor": {
+					"name": "Discover Meteor - Build Realtime JS Web Apps",
+					"url": "https://www.discovermeteor.com/",
+					"paid": true
+				},
 				"ruby": {
 					"name": "Learn the Ruby language",
 					"url": "http://www.codecademy.com/tracks/ruby"
@@ -109,7 +118,7 @@
 					"url": "http://net.tutsplus.com/tutorials/ruby/singing-with-sinatra/"
 				},
 				"rails": {
-					"name": "Learn Ruby on Rails - A Ruby Web Application Framework",
+					"name": "Learn Ruby on Rails - A Web App Framework",
 					"url": "http://ruby.railstutorial.org/book/ruby-on-rails-tutorial"
 				},
 				"nodeschool": {
@@ -132,6 +141,18 @@
 				"sailsjs": {
 					"name": "SailsJS - Node.js MVC Framework",
 					"url": "http://sailsjs.org/#!getStarted"
+				},
+				"python": {
+					"name": "Learn the Python language",
+					"url": "www.codecademy.com/tracks/python"
+				},
+				"flask": {
+					"name": "Learn Flask - A Python Web Microframework",
+					"url": "http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world"
+				},
+				"django": {
+					"name": "Learn Django - A Python Web Framework",
+					"url": "http://www.djangobook.com/en/2.0/index.html"
 				}
 			}
 		}

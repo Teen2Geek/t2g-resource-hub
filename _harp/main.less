@@ -119,6 +119,20 @@ header {
   .hostname {
     font-size: .5em;
     color: rgba(0,0,0,.4);
+    padding: 3px;
+    border: 1px solid rgba(0,0,0,.1);
+    max-width: 300px;
+    max-height: 15px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+    margin: 10px auto;
+    display: block;
+    text-align: left;
+    img {
+      margin: -3px 10px;
+      border-radius: 3px;
+    }
   }
 }
 
@@ -165,6 +179,16 @@ footer {
       display:block;
       margin:10px auto;
       border-bottom:none;
+    }
+  }
+}
+
+@media(max-width:330px) {
+  .item {
+    .hostname {
+      img {
+        display:none;
+      }
     }
   }
 }
