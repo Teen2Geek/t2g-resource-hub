@@ -12,7 +12,7 @@ Adding to this list is currently done via pull request. To do so, simply modify 
 "nameOfResource": {
   "name": "New Resource - What Resource Is",
   "url": "http://path/to/new/resource",
-  "paid": true // ONLY INCLUDE IF PAID
+  "paid": true //ONLY INCLUDE IF PAID
 },
 ```
 
