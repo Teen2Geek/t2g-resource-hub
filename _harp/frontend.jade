@@ -3,15 +3,4 @@
   i.fa(class='#{public._data.courses.frontend.faIcon}', style='background-color: #{public._data.courses.frontend.color};')
   | #{public._data.courses.frontend.name}
 .items
- each item, slug in public._data.courses.frontend.resources
-  .item(class="#{slug} #{item.paid == true ? 'paid' : 'free'} #{item.assignment == true ? 'assignment' : 'ext'}")
-   h2 
-    a(href='#{item.url}', target='_blank') #{item.name}
-    span.hostname
-     img(src='http://g.etfv.co/#{item.url}/?defaulticon=lightpng' , width='15px', height='15px')
-     | #{item.url}
- .item.add
-  h2
-   a(href='https://github.com/krrishd/t2g-resource-hub/edit/gh-pages/_harp/_data.json', target='_blank')
-    i.fa.fa-plus-square-o
-    | Add Items
+ != partial("_item", {resources: public._data.courses.frontend.resources})
