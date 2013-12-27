@@ -14,7 +14,16 @@
   ### Add to the list(s)
 
   Adding to this list is currently done via pull request through the [project's Github repository](http://github.com/krrishd/t2g-resource-hub). 
-  To do so, simply modify the ```_harp/_data.json``` file's relevant section in your own fork, and then open a pull request.
+  To do so, simply modify the ```_harp/_data.json``` file's relevant section in your own fork, and then open a pull request. For example, to add a 
+  paid resource, simply add the following to the relevant section:
+
+  ```json
+  "nameOfResource": {
+          "name": "New Resource - What Resource Is",
+          "url": "http://path/to/new/resource",
+          "paid": true // ONLY INCLUDE IF PAID
+  },
+  ```
 
   ### Contribute to development
 

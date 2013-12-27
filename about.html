@@ -7,7 +7,13 @@ discussion, as well as an internship board targeted towards teens.</p>
 <h2>Contribute</h2>
 <h3>Add to the list(s)</h3>
 <p>Adding to this list is currently done via pull request through the <a href="http://github.com/krrishd/t2g-resource-hub">project&#39;s Github repository</a>. 
-To do so, simply modify the <code>_harp/_data.json</code> file&#39;s relevant section in your own fork, and then open a pull request.</p>
+To do so, simply modify the <code>_harp/_data.json</code> file&#39;s relevant section in your own fork, and then open a pull request. For example, to add a 
+paid resource, simply add the following to the relevant section:</p>
+<pre><code class="language-json">&quot;nameOfResource&quot;: {
+        &quot;name&quot;: &quot;New Resource - What Resource Is&quot;,
+        &quot;url&quot;: &quot;http://path/to/new/resource&quot;,
+        &quot;paid&quot;: true // ONLY INCLUDE IF PAID
+},</code></pre>
 <h3>Contribute to development</h3>
 <p>First, here&#39;s some technical specifications:</p>
 <ul>
