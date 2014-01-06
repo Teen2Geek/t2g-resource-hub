@@ -1,0 +1,15 @@
+
+/* TEAM */
+Front-end Developer: Krish Dholakiya
+Site: http://www.teen2geek.com
+Twitter: @teen2geek
+Location: The internet, it's everywhere.
+						
+
+/* THANKS */
+Name: Aaron Raimist
+Twitter: @aaronraimist
+
+
+/* SITE */
+Last update: 2014/01/05
