@@ -99,7 +99,7 @@
 				},
 				"harp": {
 					"name": "Harp - Static Web Server w/Built-In Preprocessing",
-					"url": "http://harpjs.com/"
+					"url": "http://harpjs.com/docs"
 				}
 			}
 		},
@@ -140,7 +140,7 @@
 				},
 				"express": {
 					"name": "Express.js - Node.js Web Application Framework",
-					"url": "http://expressjs.com"
+					"url": "http://expressjs.com/guide.html"
 				},
 				"expresstut": {
 					"name": "Express.js Tutorial",
